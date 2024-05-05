@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="external_registration.css">
+</head>
+<body>
+    <h1>Employee Registration Form</h1>
+    <form>
+        <h2>Personal Details</h2>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <h2>Permanent Address</h2>
+        <label for="street">Street:</label>
+        <input type="text" id="street" name="street" required>
+        
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required>
+        
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" required>
+        
+        <label for="zip">ZIP Code:</label>
+        <input type="text" id="zip" name="zip" required>
+        
+        <h2>Qualification Details</h2>
+        <label for="education">Education:</label>
+        <textarea id="education" name="education" rows="4" required></textarea>
+        
+        <label for="experience">Experience:</label>
+        <textarea id="experience" name="experience" rows="4" required></textarea>
+        
+        <h2>Other Skills</h2>
+        <label for="skills">Skills:</label>
+        <textarea id="skills" name="skills" rows="4" required></textarea>
+
+        <h2>Position Application</h2>
+        <label for="position">Position:</label>
+        <select id="position" name="position" required>
+            <option value="" disabled selected>Select a position</option>
+            <option value="manager">Manager</option>
+            <option value="developer">Developer</option>
+            <option value="designer">Designer</option>
+        </select>
+        
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" name="startDate" required>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
